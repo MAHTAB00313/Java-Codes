@@ -14,7 +14,7 @@ public class  Backtracking {
         String newStr = str.subSequence(0, i) + str.substring(i+1);
         
         printPerm(newStr, permutation+currChar);
-        if(str.charAt(000)=='b') {
+        if(str.charAt(0)=='b') {
           return;
         }
       }
