@@ -1,3 +1,15 @@
+/* There are N stones, numbered 0,1,2,...N-1. For each i(0<=i<N), the height of stone i is hi.
+There is a Frog who is initially on stone 0. He will repeat the following action some number of times to reach stone N-1:
+
+If the Frog is currently on stone i, jump to stone i+1 or stone i+2.
+Here a cost of |hi-hj| is incurred, where j is the stone to land on.
+
+Find the mimimum possible total cost incurred before the Frog reaches stone N.
+Input n=4
+arr[] = {10,30,40,20}
+Output
+30
+*/
 public class Recursion_9_i {
     static int best(int[] h,int n, int idx) {
     // base case
