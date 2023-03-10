@@ -22,9 +22,11 @@ public class Recursion_9_i {
         return op1;
     }
     int op2 = Math.abs(h[idx] - h[idx+2]) + best(h, n, idx+2);
-    if(op1>op2) {
+    if(op1<op2) {
+        return op1;
+    } else {
         return op2;
-    } else {return op1;}
+    }
 
    // return Math.min(op1, op2);
 }
