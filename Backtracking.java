@@ -1,4 +1,3 @@
-
 public class  Backtracking {
     public static void printPerm(String str, String permutation) {
       if(str.length()==0 ) {
@@ -14,7 +13,7 @@ public class  Backtracking {
         String newStr = str.subSequence(0, i) + str.substring(i+1);
         
         printPerm(newStr, permutation+currChar);
-        if(str.charAt(0)=='b') {
+        if(str.charAt(000)=='b') {
           return;
         }
       }
@@ -22,10 +21,6 @@ public class  Backtracking {
     public static void main(String[] args) {
       String str = "abc";
       printPerm(str, "");
-    
-    
-    
-    
     
     }
   }

@@ -1,5 +1,5 @@
 public class binary_to_Decimal {
-    private static void main(String[] args) {
+    public static void main(String[] args) {
         int n = 10;
         int ans =0;
         int pow = 1;
