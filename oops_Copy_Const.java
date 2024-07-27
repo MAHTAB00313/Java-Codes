@@ -14,8 +14,7 @@ class Student {
     //Copy Constructor
     Student(Student s2) {
         name = s2.name;
-        roll = s2.roll;
-        
+        roll = s2.roll;  
     }
 }
 
